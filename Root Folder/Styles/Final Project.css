@@ -1,0 +1,28 @@
+#navigation li
+{
+    margin: 5px;
+    display: inline;
+}
+
+#navigation li:hover
+{
+    text-shadow: 2px 2px 5px #ffffff;
+}
+
+#newsletter
+{
+    align-items:center;
+}
+
+#bios p
+{
+    display: none;
+}
+    
+#bios li:hover + p 
+{
+    display: block;
+    border: 1px solid #000000;
+    border-radius: 25px 25px 0 0;
+    padding-left: 15px;
+}
